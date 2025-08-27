@@ -26,11 +26,11 @@ const Hero = () => {
             </div>
             {/* <div className="animate_right hidden md:w-1/2 lg:block"></div> */}
 
-            <div className="flex gap-4">
-              <a href="https://x.com/PartnerAlter" className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded transition">
+            <div className="flex flex-col sm:px-18 md:px-4 sm:py-6 md:py-3 md:flex-row gap-8 md:gap-4 ">
+              <a href="https://x.com/PartnerAlter" className="bg-purple-600 text-center hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded transition">
                 Link Kirim Menfess
               </a>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded transition">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold py-2 px-6 rounded transition">
                 Cara bikin Menfess
               </button>
             </div>
